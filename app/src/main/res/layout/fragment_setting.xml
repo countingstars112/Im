@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#fed846">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/username"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/set_image"
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:src="@drawable/set_image"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="12dp"
+        />
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/set_sign"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="可爱的男孩子：）"
+                android:textColor="#c4c4c4"
+                android:textSize="20sp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="50dp"/>
+            <Button
+                android:id="@+id/set_bianji"
+                android:layout_height="30dp"
+                android:layout_width="140dp"
+                android:text="编辑资料"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/layer_list"/>
+</LinearLayout>
+  </LinearLayout>
+
+
+    
+    <Button
+        android:id="@+id/bt_setting_out"
+        android:text="退   出"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:background="#fed846"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:text="- Choose your gender! -"
+        android:textColor="#b2b2b2"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="60dp" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <RadioButton
+            android:id="@+id/man"
+            android:text="man"
+            android:textSize="30sp"
+            android:textColor="#b2b2b2"
+            android:drawableTop="@drawable/ease_default_avatar"
+            android:padding="20dp"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="190dp" />
+        <RadioButton
+            android:id="@+id/woman"
+            android:text="woman"
+            android:textSize="30sp"
+            android:textColor="#b2b2b2"
+            android:drawableTop="@drawable/woman"
+            android:padding="25dp"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="190dp" />
+    </RadioGroup>
+</LinearLayout>
